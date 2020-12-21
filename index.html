@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Interface</title>
+    <meta name="description" content="This is my audio interface">
+    <link rel=stylesheet href="css/style.css" >
+    <link rel="stylesheet" href="https://use.typekit.net/whw8hbv.css">
+   
+</head>
+<body>
+
+   
+    <div class="container">
+          <h1>music saved my life</h1>
+            <!-- Hiphop  -->
+            <div class="hiphop">
+                <h3>Hip-hop</h3>
+                <img src="images/hiphop.jpg" alt="hiphop1"></img>
+                <br></br>
+                <p>Genre that's currently playing: <span id="currentSong"><br></br><strong>Hip-hop</strong></span></p>
+                <audio id="audioFile" src="audio/hiphop/mixkit-cbpd-400.mp3"></audio>
+                <button onclick="playMusic()">Play Music</button>
+                <button onclick="pauseMusic()">Pause Music</button>
+                <button onclick="restartMusic()">Restart Music</button>
+                
+                
+            </div>
+            <!-- Soul -->
+            <div class="soul">
+            <h3>Soul</h3>
+            <img src="images/soul1.jpg" alt="soul1"></img> 
+            <audio id="audioFile2" src="audio/soul/mixkit-smooth-like-jazz-24.mp3"></audio>
+            <br></br>
+            <p>Genre that's currently playing: <span id="currentSong"><br></br><strong>Soul</strong></span></p>
+            <button onclick="playMusic2()">Play Music</button>
+            <button onclick="pauseMusic2()">Pause Music</button>
+            <button onclick="restartMusic2()">Restart Music</button>
+           
+        </div>   
+        
+        <!--Reggae -->
+        <div class="reggae">
+            <h3>Reggae</h3>
+            <img src="images/reggae1.jpg" alt="reggae1"></img> 
+            <audio id="audioFile3" src="audio/reggae/mixkit-be-this-way-239.mp3"></audio>
+            <br></br>
+            <p>Genre that's currently playing: <span id="currentSong"><br></br><strong>Reggae</strong></span></p>
+            <button onclick="playMusic3()">Play Music</button>
+            <button onclick="pauseMusic3()">Pause Music</button>
+            <button onclick="restartMusic3()">Restart Music</button>
+           </div>   
+        
+       
+
+
+        </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
